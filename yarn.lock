@@ -1479,9 +1479,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codingbear03/strapi-plugin-keycloak@npm:1.0.3-rc":
-  version: 1.0.3-rc
-  resolution: "@codingbear03/strapi-plugin-keycloak@npm:1.0.3-rc"
+"@codingbear03/strapi-plugin-keycloak@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@codingbear03/strapi-plugin-keycloak@npm:1.0.3"
   dependencies:
     axios: ^1.3.4
     generate-password: ^1.7.0
@@ -1489,7 +1489,7 @@ __metadata:
     openid-client: ^5.4.0
   peerDependencies:
     "@strapi/strapi": ^4.6.0
-  checksum: 8075d3df1c940f0fc6572f8ac5c3c89f13395d072b0107f1375331890ba313e2519f92ecf3f22a82c63f84dcf0f3812b0ecece2659cefd05315ac97d5cd0e6c1
+  checksum: 1f141e6bcf6ac33becebac7bcd8d0c583f4ae18b977a2f010f675c234468f4a57f197ada71e482738bf1ef97884814367d0b74c991b732e8d88bfbf060080afb
   languageName: node
   linkType: hard
 
@@ -11918,7 +11918,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "strapi@workspace:."
   dependencies:
-    "@codingbear03/strapi-plugin-keycloak": 1.0.3-rc
+    "@codingbear03/strapi-plugin-keycloak": 1.0.3
     "@strapi/plugin-i18n": 4.7.1
     "@strapi/plugin-users-permissions": 4.7.1
     "@strapi/strapi": 4.7.1
