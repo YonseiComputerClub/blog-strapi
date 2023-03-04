@@ -113,3 +113,15 @@ exports
 dist
 build
 .strapi-updater.json
+
+############################
+# Yarn Berry
+############################
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
