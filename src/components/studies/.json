@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_studies_",
+  "info": {
+    "displayName": "스터디"
+  },
+  "options": {},
+  "attributes": {
+    "Study": {
+      "type": "enumeration",
+      "enum": [
+        "Test"
+      ]
+    }
+  }
+}
