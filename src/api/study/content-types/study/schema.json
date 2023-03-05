@@ -4,7 +4,8 @@
   "info": {
     "singularName": "study",
     "pluralName": "studies",
-    "displayName": "Study"
+    "displayName": "Study",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -29,6 +30,9 @@
       "relation": "oneToMany",
       "target": "api::post.post",
       "mappedBy": "study"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
