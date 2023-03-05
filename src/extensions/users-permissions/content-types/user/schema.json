@@ -67,6 +67,18 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::post.post"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "inversedBy": "users"
+    },
+    "studies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::study.study",
+      "inversedBy": "users"
     }
   }
 }
