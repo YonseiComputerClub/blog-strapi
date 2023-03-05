@@ -12,4 +12,7 @@ module.exports = ({ env }) => ({
       )}/strapi-plugin-keycloak/keycloak/callback`,
     },
   },
+  keycloak: {
+    enabled: true,
+  },
 });
